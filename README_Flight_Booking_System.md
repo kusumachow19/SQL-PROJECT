@@ -24,6 +24,10 @@ Design and implement a normalized relational database for managing a flight book
 ## 📄 SQL Schema
 
 ```sql
+
+create database flightsystem
+use flightsystem
+
 CREATE TABLE Passengers (
     PassengerID INT PRIMARY KEY AUTO_INCREMENT,
     Name VARCHAR(100),
@@ -62,30 +66,11 @@ CREATE TABLE Bookings (
 ```
 
 ## 🖼 ER Diagram
-![ER Diagram](Flight_Booking_ER_Diagram.png)
+![ER Diagram](ER DIAGRAM Task1.png)
 
-## 🧪 Sample Data
-
-```sql
-INSERT INTO Airlines (Name) VALUES ('Air India'), ('IndiGo'), ('SpiceJet');
-
-INSERT INTO Passengers (Name, Email, Phone) VALUES
-('Rahul Sharma', 'rahul@example.com', '9876543210'),
-('Anita Das', 'anita@example.com', '9123456780');
-
-INSERT INTO Flights (FlightNumber, DepartureTime, ArrivalTime, AirlineID) VALUES
-('AI101', '2025-07-01 08:00:00', '2025-07-01 10:30:00', 1),
-('6E202', '2025-07-01 12:00:00', '2025-07-01 14:00:00', 2);
-
-INSERT INTO Bookings (PassengerID, FlightID, BookingDate) VALUES
-(1, 1, '2025-06-20'),
-(2, 2, '2025-06-21');
-```
 
 ## ✅ Outcome
 A fully functional, normalized schema ready for flight booking operations with ER diagram and sample data.
 
 ---
 
-*Author: Your Name*  
-*Internship Project - SQL Developer*
