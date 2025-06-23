@@ -66,7 +66,7 @@ CREATE TABLE Bookings (
 ```
 
 ## 🖼 ER Diagram
-![ER Diagram]()
+![ER Diagram](ER IMAGE/ER DIAGRAM Task1.png)
 
 
 ## ✅ Outcome
