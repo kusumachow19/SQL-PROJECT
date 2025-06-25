@@ -5,7 +5,7 @@
 Practice inserting, updating, and deleting data in the Flight Booking System database while handling NULL values appropriately.
 
 ## 🛠 Tools Used
-- MySQL Workbench / DB Fiddle / SQLiteStudio
+- MySQL Workbench 
 
 ## 📂 Affected Tables
 - Airlines
@@ -50,6 +50,7 @@ INSERT INTO Bookings (PassengerID, FlightID, BookingDate) VALUES
 ### 🔹 UPDATE Statement
 ```sql
 -- Fix missing phone number using primary key
+Select * from passengers where name ='john paul';
 UPDATE Passengers
 SET Phone = '7777777777'
 WHERE PassengerID = 3;
@@ -72,6 +73,3 @@ WHERE PassengerID = 2;
 A populated **Flight Booking System** database with consistent, clean data, and proper handling of NULL values during insertion and update operations.
 
 ---
-
-*Author: Your Name*  
-*SQL Developer Internship Task 2*
