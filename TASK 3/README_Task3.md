@@ -5,7 +5,7 @@
 Extract data from one or more tables using SQL `SELECT` queries.
 
 ## 🛠️ Tools
-- DB Browser for SQLite / MySQL Workbench
+- MySQL Workbench
 
 ## 📦 Deliverables
 - SQL script demonstrating usage of:
