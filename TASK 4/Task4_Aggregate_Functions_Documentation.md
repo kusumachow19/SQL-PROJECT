@@ -4,7 +4,6 @@
 The goal of this task is to **analyze data** using SQL aggregate functions (`COUNT`, `SUM`, `AVG`) along with **grouping (`GROUP BY`)** and **filtering groups (`HAVING`)** to derive meaningful insights from the Airline Reservation System database.
 
 ## 🛠 Tools Used
-- **DB Browser for SQLite**
 - **MySQL Workbench**
 
 ## 📚 Concepts Used
@@ -85,3 +84,6 @@ GROUP BY BookingDate;
 - Ensure data integrity with proper `JOIN` conditions.
 - Always validate results with sample data to ensure correctness.
 - `HAVING` is used **after** aggregation, unlike `WHERE`.
+
+## Outcome
+- Ability to summarize and analyze tabular data using Aggregation functions.
