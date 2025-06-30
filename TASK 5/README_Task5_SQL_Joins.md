@@ -6,8 +6,7 @@ Learn to combine data from multiple related tables using various types of SQL JO
 ---
 
 ## 🛠 Tools Used
-- DB Browser for SQLite *(limited JOIN support)*
-- MySQL Workbench *(recommended for all JOIN types)*
+- MySQL Workbench 
 
 ---
 
@@ -105,6 +104,3 @@ By completing this task, you will master:
 
 ---
 
-## 📌 Notes
-- RIGHT and FULL JOIN are not supported in SQLite.
-- MySQL or PostgreSQL is recommended for full JOIN support.
