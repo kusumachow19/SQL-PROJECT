@@ -5,7 +5,7 @@
 Master the use of subqueries in SELECT, WHERE, and FROM using realistic flight booking system data.
 
 ## 📌 Tools
-- MySQL Workbench or DB Browser for SQLite
+- MySQL Workbench 
 
 ## ✈️ Schema Overview
 - `Airlines(AirlineID, Name)`
