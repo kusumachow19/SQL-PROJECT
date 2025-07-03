@@ -6,7 +6,6 @@ Learn to create and use SQL views for abstraction, security, and reusable logic.
 ---
 
 ## 🛠 Tools Used
-- DB Browser for SQLite
 - MySQL Workbench
 
 ---
